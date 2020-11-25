@@ -5,10 +5,9 @@ import About from "./Pages/About";
 import Contact from "./Pages/Contact";
 import Portfolio from "./Pages/Portfolio";
 import Resume from "./Pages/Resume";
-import Footer from "./components/Footer";
+import Footer from "./components/Footer/footer";
 
 
-//import About from "./components/About"
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
@@ -21,9 +20,10 @@ function App() {
           <Route exact path="/portfolio" component={Portfolio} />
           <Route exact path="/contact" component={Contact} />
           <Route exact path="/resume" component={Resume} />
+          <Route exact path="/footer" component={Footer} />
         </Switch>
       </div>
-    // </Router>
+    </Router>
   );
 }
 
