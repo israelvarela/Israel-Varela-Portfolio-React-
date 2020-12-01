@@ -2,3 +2,12 @@
     display: flex;
     justify-content: space-around;
 }
+
+.img {
+    min-height: 100px;
+    background: #000000;
+    text-align: center;
+    position: relative;
+    flex-shrink: 0; 
+    
+  }

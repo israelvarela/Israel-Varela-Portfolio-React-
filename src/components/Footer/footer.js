@@ -6,7 +6,7 @@ function Footer() {
   <div>
     
     <footer className="footer">
-      <span>Israel Varela 2020</span>
+      <span style={{color: "white"}}>Israel Varela 2020</span>
     </footer>
 
   </div>
