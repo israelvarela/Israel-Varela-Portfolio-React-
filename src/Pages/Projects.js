@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import ProjectCard from "../../components/ProjectCard/ProjectCard.js";
-import Wrapper from "./components/Wrapper";
-import Title from "./components/Title";
-import project from "./project.json";
+import ProjectCard from "../ProjectCard.js";
+import Wrapper from "/../Wrapper/wrapper.js";
+// import Title from "./components/Title";
+import project from "../project.json";
 
 class  App extends Component {
     // Setting this.state.project to the project json array
