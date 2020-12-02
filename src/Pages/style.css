@@ -1,0 +1,9 @@
+.aboutContainer{
+    display: flex !important;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.aboutMe{
+    margin-left: 40px;
+}

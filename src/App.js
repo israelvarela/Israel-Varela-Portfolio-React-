@@ -3,7 +3,7 @@ import "./App.css";
 import Header from "./components/Header/Header.js";
 import About from "./Pages/About";
 import Contact from "./Pages/Contact.js";
-import Portfolio from "./Pages/Portfolio.js";
+import Projects from "./Pages/Projects.js";
 import Resume from "./Pages/Resume.js";
 import Footer from "./components/Footer/footer";
 
@@ -17,7 +17,7 @@ function App() {
         <Header />
         <Switch>
           <Route exact path="/about" component={About} />
-          <Route exact path="/portfolio" component={Portfolio} />
+          <Route exact path="/projects" component={Projects} />
           <Route exact path="/contact" component={Contact} />
           <Route exact path="/resume" component={Resume} />
           

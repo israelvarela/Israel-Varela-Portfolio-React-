@@ -7,13 +7,16 @@ export default class Header extends Component {
     render(){
         return(
             <div>
+            <div className="logoDiv">
                 <img style={{backgroundColor: "black"}} alt={"logo"} src={israel}></img>
+            </div>
+
                 <div className="nav">
                 <p>
-                    <Link to="/home">About Me</Link>
+                    <Link to="/about">About Me</Link>
                 </p>
                 <p>
-                    <Link to="/home">Portfolio</Link>
+                    <Link to="/projects">Projects</Link>
                 </p>
                 <p>
                     <Link to="/contact">Contact</Link>
