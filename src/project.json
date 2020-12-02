@@ -1,0 +1,51 @@
+[
+    {
+      "id": 1,
+      "project": "White Glove Detailing",
+      "image": "white_glove_detailing.png",
+      "description": "White Glove Detailing an app that allows a user to select a car detailing package to be completed while they shop.",
+      "url": "White Glove Detialing App Heroku Deployment",
+      "repo": "https://github.com/xtreme6007/shop-and-fix"
+      
+    },
+    {
+      "id": 2,
+      "name": "Burger Logger",
+      "image": "eat-the-burger.png",
+      "description": "Burger Logger is a restaurant app that allows user to create a burger by inputting text into a form field and then eating the burger by clicking the devour button. The app has a column for the burgers that have been devoured and haven't been devoured.",
+      "url": "https://immense-wave-85645.herokuapp.com/",
+      "repo": "https://github.com/israelvarela/Burger"
+    },
+    {
+      "id": 3,
+      "name": "ZOOLY",
+      "image": "ZOOLY.jpg",
+      "description": "Created a children's educational app that displays gif's and recommended books when a specific animal is searched for.",
+      "url": "https://israelvarela.github.io/ZOOLY/",
+      "repo": "https://github.com/israelvarela/ZOOLY"
+    },
+    {
+      "id": 4,
+      "name": "Weather Dashboard",
+      "image": "Weather Dashboard.png",
+      "description": "Created and weather dashboard using the OpenWeather API to retrieve weather data for cities that runs in the browser and features dynamically updated HTML and CSS.",
+      "url": "https://israelvarela.github.io/Weather-Dashboard-Application/",
+      "repo": "https://github.com/israelvarela/Weather-Dashboard-Application"
+    },
+    {
+      "id": 5,
+      "name": "Work Day Calendar Scheduler",
+      "image": "work-day-calendar-scheduler.png",
+      "description": "Created a simple calendar application that allows the user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.",
+      "url": "https://israelvarela.github.io/jQuery-Calendar-Application/",
+      "repo": "https://github.com/israelvarela/jQuery-Calendar-Application"
+    },
+    {
+      "id": 6,
+      "name": "Quiz App",
+      "image": "images/quiz-app.png",
+      "description": "Built a timed code quiz with multiple-choice questions. This app will run in the browser and feature dynamically updated HTML and CSS powered by your JavaScript code. It will also feature a clean and polished user interface and be responsive, ensuring that it adapts to multiple screen sizes.",
+      "url": "https://israelvarela.github.io/Code-Quiz/",
+      "repo": "https://github.com/israelvarela/Code-Quiz"
+    }
+    
