@@ -23,7 +23,7 @@ function ProjectCard(props) {
           </li>
         </ul>
       </div>
-      <span onClick={() => props.removeFriend(props.id)} className="remove">
+      <span onClick={() => props.removeProject(props.id)} className="remove">
         𝘅
       </span>
     </div>
