@@ -6,6 +6,10 @@ import Contact from "./Pages/Contact.js";
 import Projects from "./Pages/Projects.js";
 import Resume from "./Pages/Resume.js";
 import Footer from "./components/Footer/footer";
+import ProjectCard from "./components/FriendCard";
+import Wrapper from "./components/Wrapper";
+import Title from "./components/Title";
+import projects from "./project.json";
 
 
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
@@ -28,11 +32,7 @@ function App() {
   );
 }
 
-import React, { Component } from "react";
-import FriendCard from "./components/FriendCard";
-import Wrapper from "./components/Wrapper";
-import Title from "./components/Title";
-import friends from "./friends.json";
+
 
 class App extends Component {
   // Setting this.state.project to the project json array
