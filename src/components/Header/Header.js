@@ -22,9 +22,6 @@ export default class Header extends Component {
                 <p>
                     <Link to="/contact">Contact</Link>
                 </p>
-                <p>
-                    <Link to="/resume">Resume</Link>
-                </p>
                 </div>
             </div>
         )

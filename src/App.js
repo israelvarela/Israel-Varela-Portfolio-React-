@@ -4,7 +4,6 @@ import Header from "./components/Header/Header.js";
 import About from "./Pages/About";
 import Contact from "./Pages/Contact.js";
 import Projects from "./Pages/Projects.js";
-import Resume from "./Pages/Resume.js";
 import Footer from "./components/Footer/footer";
 
 
@@ -20,7 +19,6 @@ function App() {
           <Route exact path="/about" component={About} />
           <Route exact path="/projects" component={Projects} />
           <Route exact path="/contact" component={Contact} />
-          
         </Switch>
         <Footer />
       </div>
