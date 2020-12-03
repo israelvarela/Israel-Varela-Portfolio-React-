@@ -11,6 +11,8 @@ import CardContent from "@material-ui/core/CardContent";
 import CardMedia from "@material-ui/core/CardMedia";
 import { useFourThreeCardMediaStyles } from "@mui-treasury/styles/cardMedia/fourThree";
 import { AutoComplete } from "material-ui";
+import Link from '@material-ui/core/Link';
+import image from '../images2/israelVarelaCommercialHS.jpg'
 
 const useGridStyles = makeStyles(({ breakpoints }) => ({
   root: {
@@ -33,7 +35,7 @@ const useStyles = makeStyles(() => ({
     
     minWidth: 256,
     maxWidth:256,
-    
+    padding: 50,
     borderRadius: 16,
     boxShadow: "none",
     "&:hover": {
@@ -62,9 +64,17 @@ const useStyles = makeStyles(() => ({
     fontWeight: 500,
     fontSize: 14,
   },
+  subtitle2: {
+    fontFamily: "Montserrat",
+    color: "#fff",
+    opacity: 0.87,
+    marginTop: "2rem",
+    fontWeight: 500,
+    fontSize: 14,
+  },
 }));
 
-const CustomCard = ({ classes, image, title, subtitle }) => {
+const CustomCard = ({ classes, image, title, subtitle, subtitle2 }) => {
   const mediaStyles = useFourThreeCardMediaStyles();
   return (
     <CardActionArea className={classes.actionArea}>
@@ -75,6 +85,7 @@ const CustomCard = ({ classes, image, title, subtitle }) => {
             {title}
           </Typography>
           <Typography className={classes.subtitle}>{subtitle}</Typography>
+          <Typography className={classes.subtitle2}>{subtitle2}</Typography>
         </CardContent>
       </Card>
     </CardActionArea>
@@ -83,7 +94,7 @@ const CustomCard = ({ classes, image, title, subtitle }) => {
 
 export const ContactMe = React.memo(function ContactMe() {
   const gridStyles = useGridStyles();
-  const styles = useStyles({ color: "#00000" });
+  const styles = useStyles({ color: "#000000" });
 //   const styles2 = useStyles({ color: "#4d137f" });
 //   const styles3 = useStyles({ color: "#ff9900" });
 //   const styles4 = useStyles({ color: "#34241e" });
@@ -93,37 +104,52 @@ export const ContactMe = React.memo(function ContactMe() {
         <Grid item>
           <CustomCard
             classes={styles}
-            title={"Connect on GitHub"}
+            title={
+            <Link target="_blank" href="https://github.com/israelvarela" >
+            Connect on GitHub
+            </Link>}
+  
             subtitle={
               "Visit me on GitHub page to see my code work, and connect with me."
             }
-            image={
-              "./israelVarelaCommercialHS.jpg"
-            }
+            image={image}
           />
         </Grid>
         <Grid item>
           <CustomCard
             classes={styles}
-            title={"LinkedIn"}
+            title={
+                <Link target="_blank" href="https://www.linkedin.com/in/israelrvarela/" >
+                Connect on LinkedIn
+                </Link>}
             subtitle={
               "Visit me on LinkedIn to connect and see my work history."
             }
-            image={
-              "/Users/israelvarela/Desktop/Code/COPY - smu-dal-fsf-pt-06-2020-u-c /20-State/02-Homework/react-portfolio/src/images2/israelVarelaCommercialHS.jpg"
-            }
+            image={image}
           />
         </Grid>
         <Grid item>
           <CustomCard
             classes={styles}
-            title={"Resume"}
-            subtitle={"View and download resume."}
-            image={
-              "/Users/israelvarela/Desktop/Code/COPY - smu-dal-fsf-pt-06-2020-u-c /20-State/02-Homework/react-portfolio/src/images2/israelVarelaCommercialHS.jpg"
-            }
+            title={
+                <Link target="_blank" href="https://israelvarela.github.io/portfolio/assets/images/Israel_Varela_Resume_2020C.pdf" >
+                View Resume
+                </Link>}
+            subtitle={"View and download my resume to see my professional background and skill sets I've acquired throughout the course of my career."}
+            image={image}
           />
         </Grid>
+
+        <Grid item>
+          <CustomCard
+            classes={styles}
+            title={"Feel Free To Reach Out!"}
+            subtitle={"p: 214-677-7668"}
+            subtitle2={"e: israel.varela78@yahoo.com"}
+            image={image}
+          />
+        </Grid>
+
       </Grid>
     </>
   );
