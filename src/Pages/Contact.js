@@ -13,10 +13,12 @@ import { useFourThreeCardMediaStyles } from "@mui-treasury/styles/cardMedia/four
 import { AutoComplete } from "material-ui";
 import Link from '@material-ui/core/Link';
 import image from '../images2/israelVarelaCommercialHS.jpg'
+import "../components/Header/style.css";
+import "./style.css";
 
 const useGridStyles = makeStyles(({ breakpoints }) => ({
   root: {
-    [breakpoints.up("md")]: {
+    [breakpoints.up("sm")]: {
       justifyContent: "center",
     },
   },
@@ -24,11 +26,11 @@ const useGridStyles = makeStyles(({ breakpoints }) => ({
 
 const useStyles = makeStyles(() => ({
   actionArea: {
-      paddingTop: 60,
+      paddingTop: 50,
     borderRadius: 16,
     transition: "0.2s",
     "&:hover": {
-      transform: "scale(1.1)",
+      transform: "scale(.9)",
     },
   },
   card: ({ color }) => ({
