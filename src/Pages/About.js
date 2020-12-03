@@ -6,8 +6,8 @@ import Container from "@material-ui/core/Container";
 
 import "../components/Header/style.css";
 import "./style.css";
-import Profilepic from "public/images/israel_varela_hs2.jpg";
-import Footer from "../components/Footer/footer.js"
+import Profilepic from "../images2/israelVarelaHS2.jpg";
+
 
 export default function SimpleContainer() {
   return (
@@ -18,9 +18,9 @@ export default function SimpleContainer() {
         <div className="profilePic">
         <img
           src={Profilepic}
-          alt={"israel varela headshot"}
-          height={300}
-          width={300}
+          alt={"israelVarelaHS2"}
+          height={400}
+          width={380}
         ></img>
         </div>
 
@@ -28,7 +28,7 @@ export default function SimpleContainer() {
           <h1>About Me</h1>
 
           <h2>Who is Israel Varela?</h2>
-          <p>
+          <p className="fontSize">
             I am Full Stack Web Developer with an eye for business applications
             and functional use cases to drive usage of the applications I
             develop. Having worked on several Wordpress websites over the years
@@ -43,7 +43,7 @@ export default function SimpleContainer() {
             build some great things together.{" "}
           </p>
         
-          <p>
+          <p className="fontSize">
             As a seasoned professional I have tackled many roles in my life from
             marketing and data analytics, to residential real estate sales, as
             well as acting in commericals, industrials, short films, feature

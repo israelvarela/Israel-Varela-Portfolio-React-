@@ -27,7 +27,7 @@ class  App extends Component {
           <Title>Projects List</Title>
           {this.state.project.map(project => (
             <ProjectCard
-            //   removeProject={this.removeProject}
+          
               id={project.id}
               key={project.id}
               name={project.project}
