@@ -5,27 +5,25 @@ function ProjectCard(props) {
   return (
     <div className="card">
       <div className="img-container">
-        <img alt={props.name} src={props.image} />
+        <img alt={props.name} src={"images/" + props.image} />
       </div>
       <div className="content">
         <ul>
           <li>
-            <strong>Name:</strong> {props.name}
+            <strong>Project:</strong> {props.name}
           </li>
           <li>
             <strong>Descripton:</strong> {props.description}
           </li>
           <li>
-            <strong>Deployed Project:</strong> {props.url}
+             <a target="_blank" rel="noreferrer" href={props.url}><strong>Deployed Project</strong></a>
           </li>
           <li>
-            <strong>Github Repo:</strong> {props.repo}
+             <a target="_blank" rel="noreferrer" href={props.repo}><strong>Github Repo</strong></a>
           </li>
         </ul>
       </div>
-      <span onClick={() => props.removeProject(props.id)} className="remove">
-        𝘅
-      </span>
+      
     </div>
   );
 }

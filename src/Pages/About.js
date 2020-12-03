@@ -6,21 +6,23 @@ import Container from "@material-ui/core/Container";
 
 import "../components/Header/style.css";
 import "./style.css";
-import Profilepic from "../images/israel varela commercial head shot.jpg";
+import Profilepic from "public/images/israel_varela_hs2.jpg";
+import Footer from "../components/Footer/footer.js"
 
 export default function SimpleContainer() {
   return (
     <React.Fragment>
       <CssBaseline />
       <Container maxWidth="lg" className="aboutContainer">
-        {/* <Typography component="div" /> */}
-
+        <Typography component="div" />
+        <div className="profilePic">
         <img
           src={Profilepic}
           alt={"israel varela headshot"}
           height={300}
           width={300}
         ></img>
+        </div>
 
         <div className="aboutMe">
           <h1>About Me</h1>
@@ -40,12 +42,12 @@ export default function SimpleContainer() {
             challenging opportunity with a forward thinking company so we can
             build some great things together.{" "}
           </p>
-          <br></br>
+        
           <p>
             As a seasoned professional I have tackled many roles in my life from
-            marketing and data analytics, to residential real estate sale as
+            marketing and data analytics, to residential real estate sales, as
             well as acting in commericals, industrials, short films, feature
-            films and nationally syndicate television shows. When I am not
+            films and nationally syndicated television shows. When I am not
             working I enjoy running, working out, camping, hiking, fishing,
             spending time with my family and volunteering to give back to the
             community.
