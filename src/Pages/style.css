@@ -9,5 +9,14 @@
 }
 
 .profilePic {
-   margin-top: 50px;
+   margin-top: 140px;
+  
+}
+
+.fontSize {
+    font-size: 20px;
+}
+
+.row {
+    display: float;
 }

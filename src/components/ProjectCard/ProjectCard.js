@@ -7,6 +7,7 @@ function ProjectCard(props) {
       <div className="img-container">
         <img alt={props.name} src={"images/" + props.image} />
       </div>
+      
       <div className="content">
         <ul>
           <li>
