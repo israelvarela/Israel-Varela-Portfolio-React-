@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Israel-Varela-Portfolio-React-/static/css/main.36355857.chunk.css",
+    "main.js": "/Israel-Varela-Portfolio-React-/static/js/main.28b146e4.chunk.js",
+    "main.js.map": "/Israel-Varela-Portfolio-React-/static/js/main.28b146e4.chunk.js.map",
+    "runtime-main.js": "/Israel-Varela-Portfolio-React-/static/js/runtime-main.84164a44.js",
+    "runtime-main.js.map": "/Israel-Varela-Portfolio-React-/static/js/runtime-main.84164a44.js.map",
+    "static/js/2.16ec8974.chunk.js": "/Israel-Varela-Portfolio-React-/static/js/2.16ec8974.chunk.js",
+    "static/js/2.16ec8974.chunk.js.map": "/Israel-Varela-Portfolio-React-/static/js/2.16ec8974.chunk.js.map",
+    "static/js/3.a0073b3e.chunk.js": "/Israel-Varela-Portfolio-React-/static/js/3.a0073b3e.chunk.js",
+    "static/js/3.a0073b3e.chunk.js.map": "/Israel-Varela-Portfolio-React-/static/js/3.a0073b3e.chunk.js.map",
+    "index.html": "/Israel-Varela-Portfolio-React-/index.html",
+    "static/css/main.36355857.chunk.css.map": "/Israel-Varela-Portfolio-React-/static/css/main.36355857.chunk.css.map",
+    "static/js/2.16ec8974.chunk.js.LICENSE.txt": "/Israel-Varela-Portfolio-React-/static/js/2.16ec8974.chunk.js.LICENSE.txt",
+    "static/media/israelVarelaCommercialHS.297e8e7e.jpg": "/Israel-Varela-Portfolio-React-/static/media/israelVarelaCommercialHS.297e8e7e.jpg",
+    "static/media/israelVarelaHS2.8e66a65e.jpg": "/Israel-Varela-Portfolio-React-/static/media/israelVarelaHS2.8e66a65e.jpg",
+    "static/media/israelVarelaHS3.f75ffb82.jpg": "/Israel-Varela-Portfolio-React-/static/media/israelVarelaHS3.f75ffb82.jpg",
+    "static/media/israelVarelaHS4.5c972b83.jpg": "/Israel-Varela-Portfolio-React-/static/media/israelVarelaHS4.5c972b83.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.84164a44.js",
+    "static/js/2.16ec8974.chunk.js",
+    "static/css/main.36355857.chunk.css",
+    "static/js/main.28b146e4.chunk.js"
+  ]
+}
