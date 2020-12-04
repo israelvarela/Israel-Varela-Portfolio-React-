@@ -6,3 +6,4 @@ import Container from "@material-ui/core/Container";
 
 import "../components/Header/style.css";
 import "./style.css";
+import "../components/Footer/style.css"

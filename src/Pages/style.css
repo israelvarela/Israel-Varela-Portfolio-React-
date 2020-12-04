@@ -20,3 +20,7 @@
 .row {
     display: float;
 }
+
+.MuiCardMedia-root {
+    padding-top: 90px;
+}

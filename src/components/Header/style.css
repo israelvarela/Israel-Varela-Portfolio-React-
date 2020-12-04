@@ -1,6 +1,8 @@
 .nav {
     display: flex;
     justify-content: space-around;
+    position: relative;
+    z-index: 100000;
 }
 
 .img {
@@ -13,5 +15,8 @@
   }
 .logoDiv{
     background-color: black;
+    position: relative;
+    z-index: 100000;
 }
+
 

@@ -13,6 +13,8 @@ import { useFourThreeCardMediaStyles } from "@mui-treasury/styles/cardMedia/four
 import { AutoComplete } from "material-ui";
 import Link from '@material-ui/core/Link';
 import image from '../images2/israelVarelaCommercialHS.jpg'
+import image2 from '../images2/israelVarelaHS2.jpg'
+import image3 from '../images2/israelVarelaHS3.jpg'
 import "../components/Header/style.css";
 import "./style.css";
 
@@ -26,7 +28,7 @@ const useGridStyles = makeStyles(({ breakpoints }) => ({
 
 const useStyles = makeStyles(() => ({
   actionArea: {
-      paddingTop: 50,
+      paddingTop: 110,
     borderRadius: 16,
     transition: "0.2s",
     "&:hover": {
@@ -74,6 +76,8 @@ const useStyles = makeStyles(() => ({
     fontWeight: 500,
     fontSize: 14,
   },
+
+  
 }));
 
 const CustomCard = ({ classes, image, title, subtitle, subtitle2 }) => {
@@ -81,7 +85,7 @@ const CustomCard = ({ classes, image, title, subtitle, subtitle2 }) => {
   return (
     <CardActionArea className={classes.actionArea}>
       <Card className={classes.card}>
-        <CardMedia classes={mediaStyles} image={image} />
+        <CardMedia classes={mediaStyles} image={image}  />
         <CardContent className={classes.content}>
           <Typography className={classes.title} variant={"h2"}>
             {title}
@@ -103,13 +107,12 @@ export const ContactMe = React.memo(function ContactMe() {
   return (
     <>
       <Grid classes={gridStyles} container spacing={10} wrap={"nowrap"}>
+
+      <Link target="_blank" href="https://github.com/israelvarela" >
         <Grid item>
           <CustomCard
             classes={styles}
-            title={
-            <Link target="_blank" href="https://github.com/israelvarela" >
-            Connect on GitHub
-            </Link>}
+            title={"Connect on GitHub"}
   
             subtitle={
               "Visit me on GitHub page to see my code work, and connect with me."
@@ -117,31 +120,34 @@ export const ContactMe = React.memo(function ContactMe() {
             image={image}
           />
         </Grid>
+        </Link>
+        
+        <Link target="_blank" href="https://www.linkedin.com/in/israelrvarela/" >
         <Grid item>
-          <CustomCard
+          <CustomCard 
             classes={styles}
-            title={
-                <Link target="_blank" href="https://www.linkedin.com/in/israelrvarela/" >
-                Connect on LinkedIn
-                </Link>}
+            title={"Connect on LinkedIn"}
             subtitle={
               "Visit me on LinkedIn to connect and see my work history."
             }
-            image={image}
+          
+            image={ image2 }
           />
         </Grid>
+        </Link>
+
+        <Link target="_blank" href="https://israelvarela.github.io/portfolio/assets/images/Israel_Varela_Resume_2020C.pdf" >
         <Grid item>
           <CustomCard
             classes={styles}
-            title={
-                <Link target="_blank" href="https://israelvarela.github.io/portfolio/assets/images/Israel_Varela_Resume_2020C.pdf" >
-                View Resume
-                </Link>}
+            title={"View Resume"}
             subtitle={"View and download my resume to see my professional background and skill sets I've acquired throughout the course of my career."}
-            image={image}
+            image={image3}
           />
         </Grid>
+        </Link>
 
+        <Link target="_blank" href="mailto:israel.varela78@yahoo.com" >
         <Grid item>
           <CustomCard
             classes={styles}
@@ -151,6 +157,7 @@ export const ContactMe = React.memo(function ContactMe() {
             image={image}
           />
         </Grid>
+        </Link>
 
       </Grid>
     </>
