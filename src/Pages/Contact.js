@@ -24,7 +24,6 @@ const useGridStyles = makeStyles(({ breakpoints }) => ({
     [breakpoints.up("md")]: {
       justifyContent: "center",
     },
-  
   },
 }));
 
@@ -104,62 +103,62 @@ export const ContactMe = React.memo(function ContactMe() {
   //   const styles3 = useStyles({ color: "#ff9900" });
   //   const styles4 = useStyles({ color: "#34241e" });
   return (
-    <div className="gridCard">
-      <Grid classes={gridStyles} container spacing={10} >
-        <Link target="_blank" href="https://github.com/israelvarela">
-          <Grid item>
-            <CustomCard
-              classes={styles}
-              title={"Connect on GitHub"}
-              subtitle={
-                "Visit me on GitHub page to see my code work, and connect with me."
-              }
-              image={image}
-            />
-          </Grid>
-        </Link>
+    <div className="contactCard">
+    <Grid classes={gridStyles} container spacing={10} >
+      <Link target="_blank" href="https://github.com/israelvarela">
+        <Grid item xs={6} sm={3}>
+          <CustomCard
+            classes={styles}
+            title={"Connect on GitHub"}
+            subtitle={
+              "Visit me on GitHub page to see my code work, and connect with me."
+            }
+            image={image}
+          />
+        </Grid>
+      </Link>
 
-        <Link target="_blank" href="https://www.linkedin.com/in/israelrvarela/">
-          <Grid item>
-            <CustomCard
-              classes={styles}
-              title={"Connect on LinkedIn"}
-              subtitle={
-                "Visit me on LinkedIn to connect and see my work history."
-              }
-              image={image2}
-            />
-          </Grid>
-        </Link>
+      <Link target="_blank" href="https://www.linkedin.com/in/israelrvarela/">
+        <Grid item xs={6} sm={3}>
+          <CustomCard
+            classes={styles}
+            title={"Connect on LinkedIn"}
+            subtitle={
+              "Visit me on LinkedIn to connect and see my work history."
+            }
+            image={image2}
+          />
+        </Grid>
+      </Link>
 
-        <Link
-          target="_blank"
-          href="https://israelvarela.github.io/portfolio/assets/images/Israel_Varela_Resume_2020C.pdf"
-        >
-          <Grid item>
-            <CustomCard
-              classes={styles}
-              title={"View Resume"}
-              subtitle={
-                "View and download my resume to see my professional background and skill sets I've acquired throughout the course of my career."
-              }
-              image={image3}
-            />
-          </Grid>
-        </Link>
+      <Link
+        target="_blank"
+        href="https://israelvarela.github.io/portfolio/assets/images/Israel_Varela_Resume_2020C.pdf"
+      >
+        <Grid item xs={6} sm={3}>
+          <CustomCard
+            classes={styles}
+            title={"View Resume"}
+            subtitle={
+              "View and download my resume to see my professional background and skill sets I've acquired throughout the course of my career."
+            }
+            image={image3}
+          />
+        </Grid>
+      </Link>
 
-        <Link target="_blank" href="mailto:israel.varela78@yahoo.com">
-          <Grid item>
-            <CustomCard
-              classes={styles}
-              title={"Feel Free To Reach Out!"}
-              subtitle={"p: 214-677-7668"}
-              subtitle2={"e: israel.varela78@yahoo.com"}
-              image={image4}
-            />
-          </Grid>
-        </Link>
-      </Grid>
+      <Link target="_blank" href="mailto:israel.varela78@yahoo.com">
+        <Grid item xs={6} sm={3}>
+          <CustomCard
+            classes={styles}
+            title={"Feel Free To Reach Out!"}
+            subtitle={"p: 214-677-7668"}
+            subtitle2={"e: israel.varela78@yahoo.com"}
+            image={image4}
+          />
+        </Grid>
+      </Link>
+    </Grid>
     </div>
   );
 });
