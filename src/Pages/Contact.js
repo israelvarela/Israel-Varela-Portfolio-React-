@@ -20,7 +20,7 @@ import "./style.css";
 
 const useGridStyles = makeStyles(({ breakpoints }) => ({
   root: {
-    [breakpoints.up("sm")]: {
+    [breakpoints.up("md")]: {
       justifyContent: "center",
     },
   },
@@ -109,7 +109,7 @@ export const ContactMe = React.memo(function ContactMe() {
       <Grid classes={gridStyles} container spacing={10} wrap={"nowrap"}>
 
       <Link target="_blank" href="https://github.com/israelvarela" >
-        <Grid item>
+        <Grid item xs={12} sm={6} md={3}>
           <CustomCard
             classes={styles}
             title={"Connect on GitHub"}
@@ -123,7 +123,7 @@ export const ContactMe = React.memo(function ContactMe() {
         </Link>
         
         <Link target="_blank" href="https://www.linkedin.com/in/israelrvarela/" >
-        <Grid item>
+        <Grid item xs={12} sm={6} md={3}>
           <CustomCard 
             classes={styles}
             title={"Connect on LinkedIn"}
@@ -137,7 +137,7 @@ export const ContactMe = React.memo(function ContactMe() {
         </Link>
 
         <Link target="_blank" href="https://israelvarela.github.io/portfolio/assets/images/Israel_Varela_Resume_2020C.pdf" >
-        <Grid item>
+        <Grid item xs={12} sm={6} md={3}>
           <CustomCard
             classes={styles}
             title={"View Resume"}
@@ -148,7 +148,7 @@ export const ContactMe = React.memo(function ContactMe() {
         </Link>
 
         <Link target="_blank" href="mailto:israel.varela78@yahoo.com" >
-        <Grid item>
+        <Grid item xs={12} sm={6} md={3}>
           <CustomCard
             classes={styles}
             title={"Feel Free To Reach Out!"}
