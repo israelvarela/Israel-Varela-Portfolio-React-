@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import './style.css';
-import israel from "/Users/israelvarela/Desktop/Code/COPY - smu-dal-fsf-pt-06-2020-u-c /20-State/02-Homework/react-portfolio/src/images2/israelVarelaLogo2.png";
+import israel from "../../images2/israelVarelaLogo2.png";
 import {Link} from "react-router-dom";
 
 
