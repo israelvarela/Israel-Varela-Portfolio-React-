@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Israel-Varela-Portfolio-React-/static/css/main.36355857.chunk.css",
-    "main.js": "/Israel-Varela-Portfolio-React-/static/js/main.28b146e4.chunk.js",
-    "main.js.map": "/Israel-Varela-Portfolio-React-/static/js/main.28b146e4.chunk.js.map",
+    "main.js": "/Israel-Varela-Portfolio-React-/static/js/main.f2e288ff.chunk.js",
+    "main.js.map": "/Israel-Varela-Portfolio-React-/static/js/main.f2e288ff.chunk.js.map",
     "runtime-main.js": "/Israel-Varela-Portfolio-React-/static/js/runtime-main.84164a44.js",
     "runtime-main.js.map": "/Israel-Varela-Portfolio-React-/static/js/runtime-main.84164a44.js.map",
     "static/js/2.16ec8974.chunk.js": "/Israel-Varela-Portfolio-React-/static/js/2.16ec8974.chunk.js",
@@ -21,6 +21,6 @@
     "static/js/runtime-main.84164a44.js",
     "static/js/2.16ec8974.chunk.js",
     "static/css/main.36355857.chunk.css",
-    "static/js/main.28b146e4.chunk.js"
+    "static/js/main.f2e288ff.chunk.js"
   ]
 }
