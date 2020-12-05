@@ -21,6 +21,13 @@ GitHub Pages:  https://israelvarela.github.io/Israel-Varela-Portfolio-React-/
 
 ## Screenshots
 
+![Screen Shot 2020-12-05 at 11 45 40 AM](https://user-images.githubusercontent.com/62815477/101259535-d34bab00-36ee-11eb-9c35-15e80518107c.png)
+
+![Screen Shot 2020-12-05 at 11 45 56 AM](https://user-images.githubusercontent.com/62815477/101259557-0beb8480-36ef-11eb-9794-3dacd19b3aeb.png)
+
+![Screen Shot 2020-12-05 at 11 46 06 AM](https://user-images.githubusercontent.com/62815477/101259561-1279fc00-36ef-11eb-9cca-966c99a3fec1.png)
+
+
 
 ## Installation
 This portfolio was created utilizing REACT, Material-UI, CSS, Google Font and Javascript
