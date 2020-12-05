@@ -5,12 +5,12 @@ import About from "./Pages/About";
 import Contact from "./Pages/Contact.js";
 import Projects from "./Pages/Projects.js";
 import Footer from "./components/Footer/footer";
-import { HashRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <div className="App">
         <Header />
         <Switch>
