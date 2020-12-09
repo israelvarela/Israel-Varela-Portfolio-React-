@@ -18,6 +18,7 @@ import image3 from "../images2/israelVarelaHS3.jpg";
 import image4 from "../images2/israelVarelaHS4.jpg";
 import "../components/Header/style.css";
 import "./style.css";
+import Pdf from '../images2/IsraelVarelaResume 2021.pdf';
 
 const useGridStyles = makeStyles(({ breakpoints }) => ({
   root: {
@@ -133,7 +134,7 @@ export const ContactMe = React.memo(function ContactMe() {
 
       <Link
         target="_blank"
-        href="https://israelvarela.github.io/portfolio/assets/images/Israel_Varela_Resume_2020C.pdf"
+        href= {Pdf}
       >
         <Grid item xs={6} sm={3}>
           <CustomCard
