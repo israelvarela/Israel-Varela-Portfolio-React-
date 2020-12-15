@@ -18,7 +18,7 @@ import image3 from "../images2/israelVarelaHS3.jpg";
 import image4 from "../images2/israelVarelaHS4.jpg";
 import "../components/Header/style.css";
 import "./style.css";
-import Pdf from '../images2/IsraelVarelaResume 2021.pdf';
+import Pdf from '../images2/IsraelVarelaResume2021.pdf';
 
 const useGridStyles = makeStyles(({ breakpoints }) => ({
   root: {
